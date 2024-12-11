@@ -1,0 +1,13 @@
+.svg-icon {
+    &:hover {
+        path {
+            fill: #FF4125
+        }
+    }
+
+    path {
+        transition: fill 0.3s ease;
+    }
+
+    cursor: pointer;
+}
