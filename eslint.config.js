@@ -53,8 +53,9 @@ export default antfu({
         max: 3,
       },
     ],
-    'no-console': WARN,
-
+    'no-console': OFF,
+    'no-debugger': OFF,
+    'style/indent': WARN,
     'style/jsx-self-closing-comp': [ERROR, {
       component: true,
       html: false,
