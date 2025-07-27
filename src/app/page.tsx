@@ -48,7 +48,7 @@ export default function Home() {
         }}
       >
         <div className="flex flex-col justify-center items-center">
-          <Cropper src={editImage?.toString() ?? ''} />
+          {editImage?.toString() ? <Cropper src={editImage?.toString()} /> : null}
           <Button
             className="mt-5"
             onClick={() => {
